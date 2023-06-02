@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <title>Kirtiraj panigrahy - A web developer</title>
+</head>
+
+<body>
+    <header>
+        <button id="slideOpen"> >>>> </button>
+    </header>
+    
+    <main>
+        <div class="contain">
+            <div class="navSlideBox">
+                <a href="index.html" class="slideLinks">Home</a>
+                <div class="linkSpaces"></div>
+                <a href="about.html" class="slideLinks">About me</a>
+                <div class="linkSpaces"></div>
+                <a href="#" class="slideLinks">Blog</a>
+                <div class="linkSpaces"></div>
+                <a href="contacts.html" class="slideLinks">Contact me</a>
+                <div class="linkSpaces"></div>
+                <a href="images/my-cv.pdf" class="slideLinks">Download CV</a>
+            </div>
+            
+            <div class="infoBox allCenter space-around flex-wrap">
+                <div class="info">
+                    <h1>Hi i'm </h1>
+                    <h2>KIRTIRAJ PANIGRAHY</h2>
+                    <span class="element"></span>
+                    <P>From Odisha, India</p>
+                    <div class="buttons">
+                        <a href="contacts.html" target="_blank">
+                            <button class="infoButton">CONTACT ME</button>
+                        </a>
+                        <a href="images/myImage.jpg" target="_blank">
+                            <button class="infoButton">DOWNLOAD CV</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="myImage">
+                    <img src="images/my-image-light-pass-removebg-preview.png" alt="my image">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+    </footer>
+        
+<script src="typed.js"></script>
+   <script>
+       var typed = new Typed('.element', {
+           strings: ['Web Designer', 'Frontend Developer', 'By React','Tailwind CSS','and', 'Bootstrap'],
+           typeSpeed: 100,
+       });
+   </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
