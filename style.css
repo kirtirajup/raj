@@ -1,7 +1,7 @@
 .navSlideBox {
     border : 2px solid;
     border-color : blue blue blue white;
-    border-color : blue blue blue white;
+    background-color : rgb(157, 85, 234,0.6);
     position : absolute;
     top: 63px;
     left : -265px;
