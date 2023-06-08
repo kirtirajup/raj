@@ -1,6 +1,7 @@
 .navSlideBox {
     border : 2px solid;
     border-color : blue blue blue white;
+    border-color : blue blue blue white;
     position : absolute;
     top: 63px;
     left : -265px;
@@ -18,6 +19,9 @@
     right : 5px;
     height : 40px;
     width : 50px;
+    border : 0;
+    border-radius: 0 10px 10px 0;
+    color : white;
 }
 
 .infoBox {
