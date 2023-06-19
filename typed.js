@@ -5,9 +5,11 @@
 
 // controls
 
-       var typed = new Typed('.element', {
-           strings: ['Frontend Developer', 'Web Designer', 'HTML', 'CSS', 'JavaScript' , 'React','Tailwind CSS','Bootstrap', 'Java Language with OOPS', 'C++ Language', 'C Language',''],
-           typeSpeed: 18,
-           backSpeed:1,
-           loop : true
-       });
+       setTimeout(()=>{
+    var typed = new Typed('.element', {
+        strings: ['Frontend Developer','Web Designer', 'HTML', 'CSS', 'Tailwind CSS', 'Bootstrap', 'Javascript',  'React', 'Java with OOPS', 'C &amp; C++ ', ' ' ],
+        typeSpeed: 17,
+        backSpeed:1,
+        loop : true
+    });
+},1000)
