@@ -23,6 +23,7 @@
     border : 0; /* new */
     border-radius: 0 10px 10px 0;
     color : white;
+    cursor: pointer;
 }
 
 .infoBox {
