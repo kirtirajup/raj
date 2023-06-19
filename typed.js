@@ -6,7 +6,7 @@
 // controls
 
        var typed = new Typed('.element', {
-           strings: ['Web Designer', 'Frontend Developer', 'By', 'React','Tailwind CSS','and Bootstrap'],
+           strings: ['Web Designer', 'Frontend Developer', 'By HTML', 'CSS', 'JavaScript' , 'React','Tailwind CSS','& Bootstrap'],
            typeSpeed: 18,
            backSpeed:1,
            loop : true
