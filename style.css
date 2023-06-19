@@ -1,25 +1,26 @@
 .navSlideBox {
     border : 2px solid;
-    border-color : blue blue blue white;
     background-color : rgb(157, 85, 234,0.6);
     position : absolute;
     top: 63px;
     left : -265px;
     height: 150px;
-    width: 150px;
+    width: 200px;
     padding: 5px;
     text-align: right;
+    transition: text-align 1s ease;
     transition : left 0.5s ease;
+    border-color : blue blue blue rgba(0, 0, 0, 0);
 }
 
 #slideOpen {
     background-color:  rgb(157, 85, 234);
     position : absolute;
     left : 5px;
-    right : 5px;
+    top : 5px;
     height : 40px;
     width : 50px;
-    border : 0;
+    border : 0; /* new */
     border-radius: 0 10px 10px 0;
     color : white;
 }
@@ -28,7 +29,9 @@
     height : 100vh;
     width : 100vw;
     overflow : auto;
+    background: linear-gradient(-90deg,rgb(162, 162, 255), white);
 }
+
 
 .infoBox img {
     width : 22vw;
